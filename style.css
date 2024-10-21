@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+header{
+    background: url('./image/photo3.jpeg');
+    height:100vh;
+    width: 100%;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;  
+    background-size:cover;
+    font-family: sans-serif;
+}
+nav{
+    height: 70px;
+    width: 100%;
+    background: rgba(165, 42, 42, 0.547);
+    box-shadow: 0 3px 15px rgba(0,0,0,4);
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+} 
+nav  .logo{
+    color: white;
+    font-size: 33px;
+    font-weight:bold ;
+    line-height: 70px;
+} 
+.home-page-content{
+
+    text-align:right;
+    padding:200px;
+    color: black;
+    font-size: 18px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+.first{
+    color:rgb(0, 255, 255);
+}
+footer{
+    color: black;
+    text-align: center;
+    background: rgba(165, 42, 42, 0.597);
+    box-shadow: 0 3px 15px rgba(0,0,0,4);
+    padding: 10px 0;
+}
